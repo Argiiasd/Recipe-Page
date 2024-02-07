@@ -19,6 +19,7 @@
   min-height: 100vh;
   min-width: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: left;
@@ -35,8 +36,8 @@
   flex-direction: column;
   align-items: center;
   padding: 2rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 3rem;
+  
   overflow-x: hidden;
 }
 
@@ -172,4 +173,23 @@ tr:not(:last-child) td {
   line-height: 1.5;
   margin: 0;
   margin-bottom: 2.5rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.author {
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  width: 10rem;
+  justify-content: space-between;
+  align-items: center;
 }

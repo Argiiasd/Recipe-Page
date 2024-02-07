@@ -130,6 +130,14 @@ function App() {
           </table>
         </div>
       </div>
+
+      <div className="footer">
+        <p className="author">Mateo J. Pinto</p>
+        <div className="links">
+          <a href="https://github.com/Argiiasd" className="link">GitHub</a>
+          <a href="https://www.linkedin.com/in/mateo-jeremias-pg/" className="link">LinkedIn</a>
+        </div>
+      </div>
     </div>
   );
 }
