@@ -37,8 +37,7 @@
   align-items: center;
   padding: 2rem;
   margin-top: 3rem;
-  
-  overflow-x: hidden;
+  padding-bottom: 2rem;
 }
 
 .image-container {
