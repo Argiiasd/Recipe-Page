@@ -193,3 +193,11 @@ tr:not(:last-child) td {
   justify-content: space-between;
   align-items: center;
 }
+
+@media (max-width: 500px) {
+  .container {
+    padding: 1rem;
+    margin-top: 0.5rem;
+    max-width: 90vw;
+  }
+}
